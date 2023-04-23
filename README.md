@@ -51,7 +51,7 @@ Send a POST request to the Producer at http://localhost:5000/ with a JSON payloa
         
         ]
     }
-    }```
+    }
 
 If the prob field in the preds array is less than 0.25, the Producer will append the tag low_prob to the tags list.
 
