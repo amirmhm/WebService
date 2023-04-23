@@ -38,8 +38,8 @@ The root directory contains the `docker-compose.yml` file that orchestrates the 
 ## Usage
 Send a POST request to the Producer at http://localhost:5000/ with a JSON payload in the following format:
 
-    ```javascript
-    {
+    ```json
+{
     "device_id": "string",
     "client_id": "string",
     "created_at": "string", // timestamp, e.g. '2023-02-07 14:56:49.386042'
@@ -54,7 +54,7 @@ Send a POST request to the Producer at http://localhost:5000/ with a JSON payloa
         
         ]
     }
-        
+}    
 
 
 If the prob field in the preds array is less than 0.25, the Producer will append the tag low_prob to the tags list.
