@@ -38,7 +38,7 @@ The root directory contains the `docker-compose.yml` file that orchestrates the 
 ## Usage
 Send a POST request to the Producer at http://localhost:5000/ with a JSON payload in the following format:
 
-    ```bash
+    ```javascript
     {
     "device_id": "string",
     "client_id": "string",
