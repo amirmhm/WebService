@@ -23,8 +23,8 @@ The root directory contains the `docker-compose.yml` file that orchestrates the 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/amirmhm/WebService.git
+   cd WebService
 
 2. Initialize the output.csv file in the data directory with the headers:
     `device_id,client_id,created_at,license_id,image_frame,prob,tags`
