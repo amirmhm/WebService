@@ -12,6 +12,7 @@ This project demonstrates a multi-container service consisting of a Producer, a 
 The project is organized into the following directories:
 
 - `producer`: Contains the web service that processes incoming JSON payloads and pushes them to the RabbitMQ queue.
+- `queue`: RabbitMQ
 - `consumer`: Contains the service that reads messages from the RabbitMQ queue and appends them to a CSV file.
 - `data`: Stores the output CSV file.
 
