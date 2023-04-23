@@ -68,8 +68,8 @@ the CSV output will save at : consumer container/output/output.csv
 ### Example of CSV file content
 ```csv
 device_id, client_id, created_at, license_id, image_frame, prob, tags
-device_1,	client_1,	2023-04-22T12:34:56Z,	lic_123,	1,	0.1,	tag1,low_prob
-device_1,	client_1,	2023-04-22T12:34:56Z,	lic_123	,2,	0.1,	tag3,low_prob
+device_1,	client_1,	2023-04-22T12:34:56Z,	lic_123, 1,	0.1,	tag1,low_prob
+device_1,	client_1,	2023-04-22T12:34:56Z,	lic_123, 2,	0.1,	tag3,low_prob
 ```
 
 
